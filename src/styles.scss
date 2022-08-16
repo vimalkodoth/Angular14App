@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    padding-top: 55px;
+}
+
+/* Ensure display:flex and others don't override a [hidden] */
+[hidden] { display: none !important; }
+
+footer {
+    margin-top: 15px;
+}
